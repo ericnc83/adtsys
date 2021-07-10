@@ -1,0 +1,19 @@
+<!doctype html>
+<style>
+    
+.p1 {
+     font-family: Arial, Helvetica, sans-serif;
+}
+   
+</style>
+<p class="p1"><b>{{ "Temperatura: "  }}</b> {{ result["temperatura"]}}°C</p>
+   
+<p class="p1"><b>{{ "Clima: "  }}</b> {{ "Chovendo." if result["chovendo"] == 1 else "Não está chovendo."}}</p>
+   
+<p class="p1"><b>{{ "Pokemon: "  }}</b> {{ result["pokemon"]["nome"] }}</p>
+
+<p class="p1"><b>{{ "Tipo: "  }}</b> {{ result["pokemon"]["tipo"] }}</p>
+
+<img src={{ result["pokemon"]["sprite"] }}>
+
+   
