@@ -8,7 +8,7 @@
 ### Como executar o projeto
 
 - Clone esse repositório
-- Execute o seguinte comando:
+- Execute os seguintes comandos:
 ```sh
 $ cd app
 $ python app.py
